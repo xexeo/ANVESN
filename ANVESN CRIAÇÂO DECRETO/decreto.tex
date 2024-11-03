@@ -1,0 +1,178 @@
+\documentclass[a4paper,12pt]{report} 
+
+\usepackage[utf8]{inputenc} % Permite caracteres acentuados
+\setcounter{secnumdepth}{2} % Profundidade da numeração
+\setcounter{tocdepth}{1} % Profundidade do sumário
+\usepackage{titlesec} % Número e nome dos capítulos na mesma linha
+\titleformat{\chapter}[hang]
+{\normalfont\normalsize\bfseries}{CAPÍTULO \thechapter.}{0.5em}{} 
+\titleformat{\section}[block]
+{\normalfont\normalsize\bfseries}{}{0.5em}{Seção \thesection. } 
+
+\titleformat{\subsection}[block]
+{\normalfont\normalsize\bfseries}{}{0.5em}{Subseção \thesubsection. } 
+
+\usepackage{titletoc}%
+\titlecontents{chapter}% <section-type>
+  [0pt]% <left>
+  {\bfseries}% <above-code>
+  {\chaptername\ \thecontentslabel.\quad}% <numbered-entry-format>
+  {}% <numberless-entry-format>
+  {\hfill\contentspage}% <filler-page-format>
+
+
+\renewcommand{\thechapter}{\Roman{chapter}} %Altera numeração de capítulos para números romanos
+\renewcommand{\thesection}{\Roman{section}} %Altera numeração de seções para números romanos
+\renewcommand{\thesubsection}{\Roman{subsection}} %Altera numeração de subseções para números romanos
+
+\setlength{\parindent}{0pt} % Retira indentação dos parágrafos
+\usepackage{enumitem}
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+% Dados Legislação
+\newcommand{\NumeroLei}{Sem número}
+\newcommand{\DataAssinatura}{22 de Dezembro de 1945}
+\newcommand{\LocalAssinatura}{Palácio do Catete}
+\newcommand{\CidadeAssinatura}{Rio de Janeiro}
+\newcommand{\Signatario}{\textit{José Linhares}}
+\newcommand{\CargoSignatario}{Presidente da República}
+
+%------------------------------------------------------------
+\begin{document}
+
+O \CargoSignatario, no uso da atribuição que lhe confere o art. 74 da Constituição dos Estados Unidos do Brasil de 1937, e em conformidade com as atribuições de chefe de Estado, decreta:
+
+
+DECRETA:
+
+\chapter{DA CRIAÇÃO DA AGÊNCIA NACIONAL DE VIGILÂNCIA DE EVENTOS SOBRENATURAIS (ANVESN)}
+
+\begin{enumerate}[label=Art. \arabic*]
+
+\item Fica criada a Agência Nacional de Vigilância de Eventos Sobrenaturais (ANVESN), vinculada à Presidência da República, com a finalidade de identificar, analisar, e monitorar eventos de natureza sobrenatural que possam representar ameaça à segurança nacional, à ordem pública e ao bem-estar da população.
+
+\end{enumerate}
+
+\chapter{DAS COMPETÊNCIAS E RESPONSABILIDADES}
+
+\begin{enumerate}[resume, label=Art. \arabic*]
+
+\item São competências da ANVESN:
+
+\begin{enumerate}[label=\roman*.]
+
+\item Planejar, executar e coordenar atividades de inteligência específicas para a identificação e monitoramento de eventos sobrenaturais.
+
+\item Desenvolver ações conjuntas com outros órgãos de segurança e inteligência nacionais e internacionais em casos de ameaças sobrenaturais de interesse nacional ou global.
+
+\item Manter um cadastro nacional de eventos, entidades e fenômenos sobrenaturais que representem potencial risco à sociedade.
+
+\item Estabelecer medidas de contenção e proteção para assegurar a estabilidade e a segurança em situações envolvendo atividades ou fenômenos sobrenaturais.
+
+\item Prover as informações relevantes ao Presidente da República.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\chapter{DA ESTRUTURA ORGANIZACIONAL}
+
+\section{Das Diretorias}
+
+\begin{enumerate}[resume, label=Art. \arabic*]
+
+\item A ANVESN será organizada em diretorias especializadas, conforme descrito a seguir:
+
+\begin{enumerate}[label=\roman*.]
+
+\item \textbf{Diretoria de Poderes Humanos e Super-Humanos}: voltada para o monitoramento e contenção de indivíduos humanos com habilidades sobrenaturais, como bruxas, feiticeiros e outros humanos com capacidades místicas.
+
+\item \textbf{Diretoria de Alienígenas, Intra-Terrestres e Similares}: destinada ao monitoramento de seres extraterrestres e intraterrenos.
+
+\item \textbf{Diretoria de Assombrações e Entidades Espirituais}: encarregada de investigar e gerenciar ocorrências relacionadas a assombrações, espectros e outras entidades espirituais.
+
+\item \textbf{Diretoria de Mortos-Vivos}: especializada no controle de entidades que desafiam a morte natural, como vampiros e zumbis.
+
+\item \textbf{Diretoria de Deuses, Semideuses e Seres Míticos}: dedicada à vigilância e gestão de entidades de natureza divina, semidivina ou míticas, incluindo seres primordiais.
+
+\item \textbf{Diretoria de Plantas e Animais Fantásticos e Extraordinários}: responsável pelo monitoramento, controle e manejo de criaturas sobrenaturais e monstruosas que apresentam características e habilidades além das encontradas na flora e fauna tradicional.
+
+\item \textbf{Diretoria de Administração}: responsável pela gestão administrativa e operacional interna da ANVESN, garantindo o suporte necessário para o funcionamento eficaz da agência. 
+\end{enumerate}
+
+\item \textbf{Diretoria de Equipamentos, Tecnologia, Pesquisa e Inovação}: responsável pela gestão e desenvolvimento de tecnologias avançadas e equipamentos especializados utilizados nas operações da ANVESN. Esta diretoria é encarregada de fomentar a inovação para aprimorar a eficiência e a segurança das operações. 
+\end{enumerate}
+
+
+
+\section{Das Secretarias de Apoio às Diretorias}
+
+\begin{enumerate}[resume, label=Art. \arabic*]
+
+\item Cada diretoria contará com pelo menos três secretarias para apoio organizacional:
+
+\begin{enumerate}[label=\roman*.]
+
+\item \textbf{Secretaria Geral}: responsável pela coordenação administrativa da diretoria, incluindo a gestão de recursos humanos, materiais e financeiros.
+
+\item \textbf{Secretaria de Análise e Pesquisa}: conduz estudos e investigações científicas sobre os fenômenos e entidades sobrenaturais.
+
+\item \textbf{Secretaria de Controle e Monitoração}: farante que os seres sob sua respondabilidade estejam localizados, monitorados e contidos em áreas designadas para evitar ameaças à população e aos ecossistemas locais. 
+
+\item \textbf{Secretaria de Operações}: responsável pela execução de operações de campo e resposta a incidentes sobrenaturais, com ou sem o uso da força.
+
+\end{enumerate}
+
+Parágrafo único. Cada diretoria terá autonomia para adaptar suas secretarias conforme as necessidades específicas de sua área de atuação, sem prejuízos das finalidades das secretarias descritas no \textit{caput}.
+
+\end{enumerate}
+
+\chapter{DO SIGILO E DA SEGURANÇA DAS INFORMAÇÕES}
+
+\section{Das Atividades de Inteligência e Sigilo}
+
+\begin{enumerate}[resume, label=Art. \arabic*]
+
+\item As atividades de inteligência da ANVESN terão caráter sigiloso. 
+
+\item \textbf{Confidencialidade das Atividades de Inteligência}: As atividades de inteligência da Agência Nacional de Vigilância de Eventos Sobrenaturais (ANVESN) terão a classificação máxima de sigilo vigente no país. Todos os dados, documentos, operações e relatórios da agência serão considerados segredos de Estado e somente acessíveis aos agentes designados de acordo com o protocolo de segurança máxima.
+
+\begin{enumerate}[label=\roman*.]
+
+\item \textbf{Autonomia e Sigilo Absoluto}: A ANVESN operará como uma agência de segurança secreta, não reconhecida publicamente e reportando apenas ao Presidente da República, ao Vice-Presidente da República e Ministros indicados pelo Presidente da República. Suas instalações, equipe e equipamentos serão mantidos em locais confidenciais e não identificados publicamente, com comunicações criptografadas e canais exclusivos.
+
+\item \textbf{Autorização Restrita de Acesso}: O acesso a informações da ANVESN será extremamente restrito, limitado exclusivamente àqueles com autorização especial diretamente expedida pelo presidente da República ou por autoridade designada com prerrogativas de segurança de Estado.
+
+\item \textbf{Acesso Exclusivo} Todos os dados e informações coletados, analisados ou gerados pela ANVESN, incluindo mas não se limitando a detalhes operacionais, localização de criaturas monitoradas, e medidas de contenção, serão exclusivamente acessíveis a agentes e oficiais com autorização explícita, nominal ou endereçada ao cargo ocupado. Qualquer violação ou tentativa de divulgação dessas informações será considerada crime de alta traição e punida com o rigor da lei.
+
+\item \textbf{Segmentação de Acesso por Necessidade de Conhecimento}: Cada diretoria e respectiva secretaria da ANVESN terá acesso apenas às informações necessárias para o desempenho de suas funções específicas, sob a supervisão do Diretor Geral da ANVESN e dentro dos limites de segurança definidos pelo protocolo ``your-eyes only``.
+
+\end{enumerate}
+
+Parágrafo único. Qualquer colaboração interinstitucional realizada pela ANVESN, nacional ou internacional, seguirá as diretrizes deste protocolo de segurança máxima e será regulada por acordos de confidencialidade específicos, devendo ser previamente aprovada pela autoridade superior do governo e supervisionada pela própria ANVESN.
+
+
+
+\end{enumerate}
+
+\chapter{DAS DISPOSIÇÕES GERAIS}
+
+\section{Da Supervisão}
+
+\begin{enumerate}[resume, label=Art. \arabic*]
+
+\item Esta lei entra em vigor na data de sua publicação.
+
+\end{enumerate}
+
+\LocalAssinatura, em \CidadeAssinatura, aos \DataAssinatura.
+
+\Signatario – \CargoSignatario
+
+%----------------------------------------------------------
+
+\end{document}

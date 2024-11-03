@@ -1,32 +1,11 @@
-%%
-%% This is file `modernrules.sty',
-%% generated with the docstrip utility.
-%%
-%% The original source files were:
-%%
-%% modernrules.dtx  (with options: `package')
-%% 
-%% IMPORTANT NOTICE:
-%% 
-%% For the copyright see the source file.
-%% 
-%% Any modified versions of this file must be renamed
-%% with new filenames distinct from modernrules.sty.
-%% 
-%% For distribution of the original source see the terms
-%% for copying and modification in the file modernrules.dtx.
-%% 
-%% This generated file may be distributed as long as the
-%% original source files, as listed above, are part of the
-%% same distribution. (The sources need not necessarily be
-%% in the same archive or directory.)
+% Arquivo: modernrules.sty
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{modernrules}[2024/10/31 Modern Style for RPG Rulebooks]
 
 
-
-
 \RequirePackage{etoolbox}
+
+
 \RequirePackage{truncate}
 \RequirePackage{titlesec}
 \RequirePackage{geometry}
@@ -40,20 +19,21 @@
 \RequirePackage{xparse}
 \RequirePackage{expl3}
 \RequirePackage{indentfirst}
-
-
-
+% Configurações de página
 \geometry{a4paper, margin=1in}
-\setlength{\parindent}{1cm} % Parágrafos com indentação
+\setlength{\parindent}{1cm} % Parágrafos sem indentação
 \setlength{\parskip}{0.5em} % Espaço entre parágrafos
 
-
+% Configuração de fonte
 \setmainfont{Montserrat} % Fontes modernas e legíveis
 \setsansfont{Montserrat}
 \newfontfamily\headingfont{Montserrat Bold}
 
+% Definindo a cor principal
 \definecolor{primarycolor}{HTML}{1A237E} % Azul escuro moderno
 \definecolor{secondarycolor}{HTML}{546E7A} % Cinza moderno para subtítulos
+
+% Configuração dos títulos
 
 
 \titleformat{\part}[display]
@@ -61,11 +41,12 @@
   {Parte \thepart}{1em}{}
 \titlespacing*{\part}{0pt}{2em}{1em}
 
+% Ajuste para evitar Overfull hbox nos títulos
 \titleformat{\chapter}[hang]
   {\headingfont\LARGE\bfseries\color{primarycolor}}
   {Capítulo \thechapter.}{1em}{}
   [\vspace{0.5em}]
-\titlespacing*{\chapter}{0pt}{0pt}{1em}
+\titlespacing*{\chapter}{0pt}{2em}{1em}
 
 \titleformat{\section}[block]
   {\headingfont\Large\bfseries\color{secondarycolor}}
@@ -83,14 +64,20 @@
 \titlespacing*{\subsubsection}{0pt}{1em plus 0.5em minus 0.5em}{0pt}
 
 
+
+
+% Estilo de cabeçalho e rodapé
 \pagestyle{fancy}
 \setlength{\headheight}{15.23404pt}
 \fancyhf{}
+% \fancyhead[L]{\headingfont\color{primarycolor} \leftmark}
+% \fancyhead[R]{\headingfont\color{primarycolor} ANVESN RPG}
+
 \fancyhead[L]{\headingfont\color{primarycolor} \truncate{0.4\textwidth}{\leftmark}}
 \fancyhead[R]{\headingfont\color{primarycolor} ANVESN RPG}
 \fancyfoot[C]{\thepage}
 
-
+% Caixas de destaque para regras e notas
 \newtcolorbox{rulesection}{
   colback=primarycolor!5!white, colframe=primarycolor,
   fonttitle=\bfseries, coltitle=black, colbacktitle=primarycolor!20!white,
@@ -98,7 +85,7 @@
   boxrule=0.4pt, width=\textwidth
 }
 
-
+% Hiperlink com cor definida
 \hypersetup{
   colorlinks=true,
   linkcolor=primarycolor,
@@ -106,33 +93,43 @@
   citecolor=primarycolor
 }
 
-
+% Comando para caixas de regras com título
 \newcommand{\rulesbox}[2]{
   \begin{rulesection}[title=#1]
     #2
   \end{rulesection}
 }
 
-
+% Comando de chamada para dados, com destaque
 \newcommand{\dice}[1]{
   \textbf{\textcolor{primarycolor}{#1}}
 }
 
+% Comando de chamada para notas, com ícone
 \newcommand{\note}[1]{
   \textit{\textcolor{secondarycolor}{\faInfoCircle\ #1}}
 }
 
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+
+% Comando para capa com duas imagens
+% Redefine \maketitle to include an image before and after the title content
 
 \renewcommand{\maketitle}{
   \begin{titlepage}
     \centering
+    % First image above the title
     \ifdefined\@titleimagebefore
       \includegraphics[width=0.6\textwidth]{\@titleimagebefore}
       \vspace{1em}
     \fi
+
+    % Title content
     {\headingfont\Huge\color{primarycolor}\textbf{\@title}}\\[1em]
     {\Large\color{secondarycolor}\@author}\\[2em]
     {\large\@date}
+
+    % Second image below the title
     \ifdefined\@titleimageafter
       \vspace{2em}
       \includegraphics[width=0.6\textwidth]{\@titleimageafter}
@@ -140,35 +137,65 @@
   \end{titlepage}
 }
 
+% New commands to set images for title page
+\newcommand{\titleimagebefore}[1]{\def\@titleimagebefore{#1}}
+\newcommand{\titleimageafter}[1]{\def\@titleimageafter{#1}}
 
-\NewTColorBox{personagem}{ O{Personagem} }{
+% Caixa para descrever personagens com fundo azulado claro
+
+
+\NewTColorBox{personagem}{ O{Personagem} }{ % Define o argumento opcional com valor padrão "Personagem"
   colback=blue!5!white, colframe=primarycolor,
   fonttitle=\bfseries, coltitle=black, colbacktitle=primarycolor!20!white,
-  title={#1},
+  title={#1}, % Utiliza o argumento opcional para o título
   top=4pt, bottom=4pt, left=4pt, right=4pt,
   boxrule=0.4pt, width=\textwidth
 }
 
+% Comando para descrever personagens com o ambiente 'personagem'
+% \newcommand{\dperson}[3]{
+%   \begin{personagem}[Personagem: #1]
+%     \if\relax\detokenize{#2}\relax
+%     \else
+%       \par\textbf{Descrição:} #2
+%     \fi
+%     \if\relax\detokenize{#3}\relax
+%     \else
+%       \par\textbf{Atributos:} #3
+%     \fi
+%   \end{personagem}
+% }
+
 
 \ExplSyntaxOn
+% Define uma função auxiliar para indexar a primeira parte do texto antes da vírgula
 \cs_new_protected:Npn \index_first_part:nn #1 #2 {
   \str_if_in:nnTF {#1} {#2}
     {
+      % Separa a string usando o delimitador e indexa a primeira parte
       \seq_set_split:Nnn \l_tmpa_seq {#2} {#1}
       \index{\seq_item:Nn \l_tmpa_seq {1}}
     }
     {
+      % Se o delimitador não for encontrado, indexa o texto completo
       \index{#1}
     }
 }
 
+
+
 \NewDocumentCommand{\dperson}{m m m}{
+  % Chama a função auxiliar para indexar a primeira parte de #1 antes da vírgula
   \index_first_part:nn {#1} {,}
+
+  % Cria o ambiente personagem com o título completo
   \begin{personagem}[Personagem:\   #1]
+    % Verifica e imprime a descrição, se houver
     \if\relax\detokenize{#2}\relax
     \else
       \par\textbf{Descrição:} #2
     \fi
+    % Verifica e imprime os atributos, se houver
     \if\relax\detokenize{#3}\relax
     \else
       \par\textbf{Atributos:} #3
@@ -177,6 +204,10 @@
 }
 \ExplSyntaxOff
 
+
+\newcommand{\pindex}[1]{#1\index{#1}}
+
+
+
+
 \endinput
-%%
-%% End of file `modernrules.sty'.
