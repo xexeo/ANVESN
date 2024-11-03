@@ -1,0 +1,249 @@
+% \iffalse
+%<*package>
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{modernrules}[2024/10/31 Modern Style for RPG Rulebooks]
+% \fi
+
+% \title{The \textsf{modernrules} Package}
+% \author{Seu Nome}
+% \date{2024/10/31}
+%
+% \begin{document}
+% \maketitle
+% 
+% \section{Introdução}
+%
+% O pacote \textsf{modernrules} foi desenvolvido para criar livros de regras de RPG com um estilo moderno,
+% usando fontes, cores e layout consistentes. Este pacote oferece suporte para títulos, seções, caixas de destaque e
+% configurações de página específicas para melhorar a aparência de rulebooks.
+%
+% \section{Uso}
+%
+% Inclua este pacote no seu documento com:
+% \begin{verbatim}
+% \usepackage{modernrules}
+% \end{verbatim}
+%
+% \section{Funcionalidades}
+%
+% As principais funcionalidades do pacote incluem:
+% \begin{itemize}
+%   \item Configuração de estilos de títulos para capítulos, seções, subseções e partes.
+%   \item Estilo de cabeçalhos e rodapés configuráveis.
+%   \item Criação de caixas de destaque para regras e notas.
+%   \item Suporte para fontes modernas usando \textsf{fontspec}.
+% \end{itemize}
+
+% \subsection{Pacotes Requeridos}
+% Este pacote depende dos pacotes:
+% \begin{verbatim}
+% etoolbox, truncate, titlesec, geometry, xcolor, graphicx, fontspec, tcolorbox, hyperref, fancyhdr, parskip, xparse, expl3, indentfirst
+% \end{verbatim}
+
+% \section{Código do Pacote}
+% \begin{verbatim}
+
+\RequirePackage{etoolbox}
+\RequirePackage{truncate}
+\RequirePackage{titlesec}
+\RequirePackage{geometry}
+\RequirePackage{xcolor}
+\RequirePackage{graphicx}
+\RequirePackage{fontspec}
+\RequirePackage{tcolorbox}
+\RequirePackage{hyperref}
+\RequirePackage{fancyhdr}
+\RequirePackage{parskip}
+\RequirePackage{xparse}
+\RequirePackage{expl3}
+\RequirePackage{indentfirst}
+
+% \end{verbatim}
+
+% \subsection{Configurações de Página}
+% Configura o tamanho da página e o espaçamento de parágrafos.
+
+% \begin{verbatim}
+\geometry{a4paper, margin=1in}
+\setlength{\parindent}{1cm} % Parágrafos com indentação
+\setlength{\parskip}{0.5em} % Espaço entre parágrafos
+% \end{verbatim}
+
+% \subsection{Configuração de Fontes}
+% Define a fonte principal como Montserrat e uma fonte extra para cabeçalhos. O usuário deve ter Montserrat instalada.
+
+% \begin{verbatim}
+\setmainfont{Montserrat} % Fontes modernas e legíveis
+\setsansfont{Montserrat}
+\newfontfamily\headingfont{Montserrat Bold}
+% \end{verbatim}
+
+% \subsection{Cores Principais}
+% Define cores principais para títulos e caixas de destaque.
+% \begin{verbatim}
+\definecolor{primarycolor}{HTML}{1A237E} % Azul escuro moderno
+\definecolor{secondarycolor}{HTML}{546E7A} % Cinza moderno para subtítulos
+% \end{verbatim}
+
+% \subsection{Configuração dos Títulos}
+% Define o estilo de formatação para \texttt{chapter}, \texttt{section}, \texttt{subsection} e \texttt{part}.
+
+% \begin{verbatim}
+\titleformat{\part}[display]
+  {\centering\headingfont\Huge\bfseries\color{primarycolor}}
+  {Parte \thepart}{1em}{}
+\titlespacing*{\part}{0pt}{2em}{1em}
+
+\titleformat{\chapter}[hang]
+  {\headingfont\LARGE\bfseries\color{primarycolor}}
+  {Capítulo \thechapter.}{1em}{}
+  [\vspace{0.5em}]
+\titlespacing*{\chapter}{0pt}{0pt}{1em}
+
+\titleformat{\section}[block]
+  {\headingfont\Large\bfseries\color{secondarycolor}}
+  {\thesection}{1em}{\raggedright}
+\titlespacing*{\section}{0pt}{1em plus 0.5em minus 0.5em}{0.5em}
+
+\titleformat{\subsection}[block]
+  {\headingfont\large\bfseries\color{secondarycolor}}
+  {\thesubsection}{1em}{\raggedright}
+\titlespacing*{\subsection}{0pt}{1em plus 0.5em minus 0.5em}{0.5em}
+
+\titleformat{\subsubsection}[runin]
+  {\bfseries\color{secondarycolor}}
+  {\thesubsubsection}{1em}{\raggedright}
+\titlespacing*{\subsubsection}{0pt}{1em plus 0.5em minus 0.5em}{0pt}
+% \end{verbatim}
+
+% \subsection{Estilo de Cabeçalho e Rodapé}
+% Configura o cabeçalho e o rodapé, incluindo o truncamento de títulos longos.
+
+% \begin{verbatim}
+\pagestyle{fancy}
+\setlength{\headheight}{15.23404pt}
+\fancyhf{}
+\fancyhead[L]{\headingfont\color{primarycolor} \truncate{0.4\textwidth}{\leftmark}}
+\fancyhead[R]{\headingfont\color{primarycolor} ANVESN RPG}
+\fancyfoot[C]{\thepage}
+% \end{verbatim}
+
+% \subsection{Caixas de Destaque para Regras e Notas}
+% Cria caixas de destaque usando o \texttt{tcolorbox}.
+
+% \begin{verbatim}
+\newtcolorbox{rulesection}{
+  colback=primarycolor!5!white, colframe=primarycolor,
+  fonttitle=\bfseries, coltitle=black, colbacktitle=primarycolor!20!white,
+  title=Destaque, top=4pt, bottom=4pt, left=4pt, right=4pt,
+  boxrule=0.4pt, width=\textwidth
+}
+% \end{verbatim}
+
+% \subsection{Configuração de Hiperlink}
+% Configura o estilo dos links.
+
+% \begin{verbatim}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=primarycolor,
+  urlcolor=primarycolor,
+  citecolor=primarycolor
+}
+% \end{verbatim}
+
+% \subsection{Comando \texttt{\textbackslash rulesbox}}
+% Define um comando para criar caixas de destaque personalizadas.
+
+% \begin{verbatim}
+\newcommand{\rulesbox}[2]{
+  \begin{rulesection}[title=#1]
+    #2
+  \end{rulesection}
+}
+% \end{verbatim}
+
+% \subsection{Comandos para Dados e Notas}
+% Define comandos para destacar chamadas de dados e notas.
+
+% \begin{verbatim}
+\newcommand{\dice}[1]{
+  \textbf{\textcolor{primarycolor}{#1}}
+}
+
+\newcommand{\note}[1]{
+  \textit{\textcolor{secondarycolor}{\faInfoCircle\ #1}}
+}
+% \end{verbatim}
+
+% \subsection{Comando para Capa com Imagens}
+% Redefine o comando \texttt{\textbackslash maketitle} para incluir uma imagem antes e depois do título.
+
+% \begin{verbatim}
+\renewcommand{\maketitle}{
+  \begin{titlepage}
+    \centering
+    \ifdefined\@titleimagebefore
+      \includegraphics[width=0.6\textwidth]{\@titleimagebefore}
+      \vspace{1em}
+    \fi
+    {\headingfont\Huge\color{primarycolor}\textbf{\@title}}\\[1em]
+    {\Large\color{secondarycolor}\@author}\\[2em]
+    {\large\@date}
+    \ifdefined\@titleimageafter
+      \vspace{2em}
+      \includegraphics[width=0.6\textwidth]{\@titleimageafter}
+    \fi
+  \end{titlepage}
+}
+% \end{verbatim}
+
+% \subsection{Comandos para Personagens}
+% Define um ambiente para descrever personagens com um fundo azulado claro.
+
+% \begin{verbatim}
+\NewTColorBox{personagem}{ O{Personagem} }{
+  colback=blue!5!white, colframe=primarycolor,
+  fonttitle=\bfseries, coltitle=black, colbacktitle=primarycolor!20!white,
+  title={#1},
+  top=4pt, bottom=4pt, left=4pt, right=4pt,
+  boxrule=0.4pt, width=\textwidth
+}
+% \end{verbatim}
+
+% \section{Indexação de Personagens}
+% Cria um comando para descrever e indexar personagens usando \texttt{\textbackslash dperson}.
+
+% \begin{verbatim}
+\ExplSyntaxOn
+\cs_new_protected:Npn \index_first_part:nn #1 #2 {
+  \str_if_in:nnTF {#1} {#2}
+    {
+      \seq_set_split:Nnn \l_tmpa_seq {#2} {#1}
+      \index{\seq_item:Nn \l_tmpa_seq {1}}
+    }
+    {
+      \index{#1}
+    }
+}
+
+\NewDocumentCommand{\dperson}{m m m}{
+  \index_first_part:nn {#1} {,}
+  \begin{personagem}[Personagem:\   #1]
+    \if\relax\detokenize{#2}\relax
+    \else
+      \par\textbf{Descrição:} #2
+    \fi
+    \if\relax\detokenize{#3}\relax
+    \else
+      \par\textbf{Atributos:} #3
+    \fi
+  \end{personagem}
+}
+\ExplSyntaxOff
+% \end{verbatim}
+
+% \iffalse
+%</package>
+% \fi
+% \end{document}

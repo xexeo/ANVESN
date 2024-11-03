@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[brazilian]{babel}
+%\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\usepackage[section]{placeins}
+\usepackage{modernrules}
+\graphicspath{{imagens/}}
+\title{ANVESN: Assombração em Barra das Garças}
+\author{Geraldo Xexéo}
+\date{}
+\usepackage{imakeidx}
+\makeindex
+\begin{document}
+
+\titleimagebefore{capaboa.png}
+\titleimageafter{capamal.png}
+ 
+
+\maketitle
+\begin{center}
+\newpage
+\vspace*{\fill}
+\includegraphics[scale=.9]{imagens/ANVESN_LOGO.png}
+\vspace*{\fill}
+\newpage
+\end{center}
+\tableofcontents
+
+\input{capitulos/intro}
+\input{capitulos/missao}
+\input{capitulos/locais}
+\input{capitulos/religiosos}
+\input{capitulos/misticos}
+\input{capitulos/conspiracoes}
+\input{capitulos/outros}
+\input{capitulos/fofocas}
+\chapter{Conclusão}
+
+Ao final da missão, os agentes retornam à ANVESN com um relato completo da missão, incluindo informações sobre o grupo que colabora com os intraterrenos e a situação do ET. Eles devem continuar monitorando a Sala do Portal, pois sua natureza permanece um mistério.
+
+
+
+\input{capitulos/refs}
+
+\appendix
+\input{apendices/memo}
+\input{apendices/adicional}
+\input{apendices/jornal1}
+\printindex
+\end{document}
+

@@ -1,0 +1,25 @@
+\contentsline {chapter}{\numberline {1}Introdução}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivo do Jogo}{3}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Criação de Personagem}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Atributos Básicos: Definindo a Capacidade Física}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Habilidades Naturais}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Definindo a Formação}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Escolhendo Habilidades}{4}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Customização de Habilidades}{4}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {3}Mecânica do Jogo}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Sistema de Resolução de Ações}{4}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Testes Difíceis}{5}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Aprendizado com Sucesso e Falha}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Ganho de Experiência e Evolução}{5}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Evolução Adicional das Habilidades}{6}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {4}Insanidade e Efeitos Psicológicos}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Mecânica de Insanidade}{6}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Consequências da Insanidade}{6}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Combate e Conflitos}{6}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Sistema de Combate}{7}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Resistência Física}{7}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Progresso e Evolução dos Personagens}{7}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ganho de Experiência e Evolução}{7}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Super Poderes e Conhecimento Arcano}{7}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conhecimento Arcano}{7}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Super Poderes}{8}{section.7.2}%

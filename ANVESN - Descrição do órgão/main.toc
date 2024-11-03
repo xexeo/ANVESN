@@ -1,0 +1,176 @@
+\babel@toc {brazilian}{}\relax 
+\contentsline {part}{I\hspace {1em}Diretorias da ANVESN}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}Diretoria de Poderes Humanos e Super-Humanos}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Definições e Classificações de Poderes}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Riscos Associados aos Poderes Humanos e Super-Humanos}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Interação com Outras Diretorias}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Protocolos de Contenção e Restrições}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Secretaria Geral}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Secretaria de Análise e Pesquisa}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Secretaria de Controle e Monitoramento}{5}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Secretaria de Operações}{5}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Casos Históricos}{6}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Caso da Feiticeira do Cerrado}{6}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Ritual Proibido em Escola Abandonada}{6}{subsection.1.9.2}%
+\contentsline {section}{\numberline {1.10}Considerações Finais}{6}{section.1.10}%
+\contentsline {chapter}{\numberline {2}Diretoria de Alienígenas, Intra-Terrestres e Similares}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Definições e Classificações de Entidades}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Riscos Associados às Entidades e Fenômenos}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Interação com Outras Diretorias}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Protocolos de Contenção e Isolamento}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Secretaria Geral}{8}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Secretaria de Análise e Pesquisa}{8}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Secretaria de Controle e Monitoramento}{8}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Secretaria de Operações}{8}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Casos Históricos}{8}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Incidente do OVNI sobre Brasília}{8}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Contato com Intra-Terrestres no Roncador}{9}{subsection.2.9.2}%
+\contentsline {section}{\numberline {2.10}Considerações Finais}{9}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Diretoria de Assombrações e Entidades Espirituais}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definições e Classificações de Entidades Espirituais}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Riscos Associados às Entidades Espirituais}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Interação com Outras Diretorias}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Protocolos de Contenção e Rituais de Proteção}{10}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Secretaria Geral}{10}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Secretaria de Análise e Pesquisa}{11}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Secretaria de Controle e Monitoramento}{11}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Secretaria de Operações}{11}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Casos Históricos}{11}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}O Caso da Casa Amaldiçoada em Ouro Preto}{11}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Exorcismo no Hospital Psiquiátrico}{11}{subsection.3.9.2}%
+\contentsline {section}{\numberline {3.10}Considerações Finais}{11}{section.3.10}%
+\contentsline {chapter}{\numberline {4}Diretoria de Mortos-Vivos}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Definições e Classificações de Mortos-Vivos}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Riscos Associados aos Mortos-Vivos}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Interação com Outras Diretorias}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Protocolos de Contenção e Eliminação}{13}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Secretaria Geral}{13}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Secretaria de Análise e Pesquisa}{13}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Secretaria de Controle e Monitoramento}{14}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Secretaria de Operações}{14}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Casos Históricos}{14}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Surto de Zumbis na Zona Rural}{14}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Investigação de Vampiro no Centro Urbano}{14}{subsection.4.9.2}%
+\contentsline {section}{\numberline {4.10}Considerações Finais}{14}{section.4.10}%
+\contentsline {chapter}{\numberline {5}Diretoria de Deuses, Semideuses e Seres Míticos}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Definições e Classificações de Entidades Míticas}{14}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Riscos Associados aos Deuses, Semideuses e Seres Míticos}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Interação com Outras Diretorias}{15}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Protocolos de Interação e Contenção}{16}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Discussão sobre Cthulhu e Seres Primordiais}{16}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Entidades de Mitologias Indígenas e Estrangeiras}{16}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Secretaria Geral}{17}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Secretaria de Análise e Pesquisa}{17}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Secretaria de Controle e Monitoramento}{17}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Secretaria de Operações}{17}{section.5.10}%
+\contentsline {section}{\numberline {5.11}Casos Históricos}{18}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Manifestação em Monte Roraima}{18}{subsection.5.11.1}%
+\contentsline {subsection}{\numberline {5.11.2}Aparição de Ser Mitológico no Carnaval}{18}{subsection.5.11.2}%
+\contentsline {section}{\numberline {5.12}Considerações Finais}{18}{section.5.12}%
+\contentsline {chapter}{\numberline {6}Diretoria de Plantas e Animais Fantásticos e Extraordinários}{18}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Definições e Classificações de Plantas e Animais Fantásticos}{18}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Riscos Associados às Plantas e Animais Fantásticos}{18}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Interação com Outras Diretorias}{19}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Protocolos de Contenção e Preservação}{19}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Considerações sobre Flora e Fauna Sobrenatural Indígena}{20}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Secretaria Geral}{20}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Secretaria de Análise e Pesquisa}{20}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Secretaria de Controle e Monitoramento}{20}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Secretaria de Operações}{21}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Casos Históricos}{21}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Captura de Lobisomem em Zona Rural}{21}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Invasão de Pássaros Fantasmagóricos em Áreas Urbanas}{21}{subsection.6.10.2}%
+\contentsline {section}{\numberline {6.11}Considerações Finais}{21}{section.6.11}%
+\contentsline {chapter}{\numberline {7}Diretoria de Administração}{21}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Áreas de Responsabilidade e Burocracia Administrativa}{21}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Impacto da Burocracia e Cortes de Verbas nas Operações}{22}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Dificuldades Impostas às Outras Diretorias}{22}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Protocolos e Restrições Administrativas}{22}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Secretaria Geral}{23}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Secretaria de Controle Financeiro}{23}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Secretaria de Recursos Humanos}{23}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Secretaria de Operações}{23}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Casos Históricos}{23}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Implementação de Novo Sistema Logístico}{23}{subsection.7.9.1}%
+\contentsline {subsection}{\numberline {7.9.2}Treinamento de Recrutas}{24}{subsection.7.9.2}%
+\contentsline {section}{\numberline {7.10}Considerações Finais}{24}{section.7.10}%
+\contentsline {chapter}{\numberline {8}Diretoria de Equipamentos, Tecnologia, Pesquisa e Inovação}{24}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Áreas de Atuação e Pesquisa}{24}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Riscos e Desafios Tecnológicos}{24}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Interação com Outras Diretorias}{25}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Protocolos de Segurança e Testes}{25}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Pesquisa e Desenvolvimento de Inovações Futuras}{26}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Secretaria Geral}{26}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Secretaria de Desenvolvimento Tecnológico}{26}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Secretaria de Manutenção e Suporte Técnico}{26}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Secretaria de Operações}{27}{section.8.9}%
+\contentsline {section}{\numberline {8.10}Casos Históricos}{27}{section.8.10}%
+\contentsline {subsection}{\numberline {8.10.1}Desenvolvimento de Dispositivo de Detecção de Entidades}{27}{subsection.8.10.1}%
+\contentsline {subsection}{\numberline {8.10.2}Aprimoramento de Armaduras Anti-Sobrenatural}{27}{subsection.8.10.2}%
+\contentsline {section}{\numberline {8.11}Considerações Finais}{27}{section.8.11}%
+\contentsline {part}{II\hspace {1em}Como a ANVESN Trabalha}{29}{part.2}%
+\contentsline {chapter}{\numberline {9}Processo de Contratação da ANVESN}{31}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Fase 1: Triagem Inicial}{31}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Entrevista de Background}{31}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Testes Psicométricos}{31}{subsection.9.1.2}%
+\contentsline {section}{\numberline {9.2}Fase 2: Testes de Aptidão Mística e Técnica}{31}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Provas Práticas de Aptidão Mística}{31}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Testes Técnicos e de Resistência}{32}{subsection.9.2.2}%
+\contentsline {section}{\numberline {9.3}Fase 3: Teste de Resistência Psicológica}{32}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Teste de Isolamento}{32}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Experiência Simulada com Entidades}{32}{subsection.9.3.2}%
+\contentsline {section}{\numberline {9.4}Fase 4: Treinamento de Campo Supervisionado}{33}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Fase 5: Aprovação e Cerimônia de Iniciação}{33}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Juramento de Sigilo}{33}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}Integração às Diretorias}{33}{subsection.9.5.2}%
+\contentsline {section}{\numberline {9.6}Conclusão}{33}{section.9.6}%
+\contentsline {chapter}{\numberline {10}Dificuldades Burocráticas e Orçamentárias da ANVESN}{33}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Burocracia Nacional e Autorizações}{34}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Dificuldade em Explicar a Necessidade das Operações}{34}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Protocolos Complexos para Solicitação de Autorização}{34}{subsection.10.1.2}%
+\contentsline {section}{\numberline {10.2}Limitações Orçamentárias e Corte de Verbas}{34}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Despesas Elevadas para Operações Especializadas}{34}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Soluções de Baixo Custo e Reaproveitamento de Equipamentos}{35}{subsection.10.2.2}%
+\contentsline {section}{\numberline {10.3}Impasses Políticos e a Falta de Compreensão dos Gestores Públicos}{35}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Manutenção do Sigilo e Explicação Limitada}{35}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Estratégias de Relações Públicas e Persuasão Política}{35}{subsection.10.3.2}%
+\contentsline {section}{\numberline {10.4}Dependência de Alianças Informais e Recursos Externos}{36}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Colaborações com Instituições Acadêmicas}{36}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Apoio de Empresas Privadas}{36}{subsection.10.4.2}%
+\contentsline {section}{\numberline {10.5}Impacto das Limitações no Desempenho Operacional}{36}{section.10.5}%
+\contentsline {section}{\numberline {10.6}Considerações Finais}{36}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Sigilo e Segurança das Informações}{37}{section.10.7}%
+\contentsline {chapter}{\numberline {11}Relações Internacionais da ANVESN}{37}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Principais Organizações Parceiras}{37}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}The Laundry (Reino Unido)}{37}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.2}DIA-X (Estados Unidos)}{37}{subsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.1.3}China – Departamento de Operações Paranormais (DOP)}{37}{subsection.11.1.3}%
+\contentsline {subsection}{\numberline {11.1.4}Rússia – Divisão de Pesquisa Anômala (DPA)}{38}{subsection.11.1.4}%
+\contentsline {section}{\numberline {11.2}Cooperação com Agências da América Latina}{38}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Argentina – Unidade de Contenção Sobrenatural (UCS)}{38}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Paraguai – Serviço Paranormal Especializado (SPE)}{38}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Bolívia – Unidade de Monitoramento Paranormal (UMP)}{38}{subsection.11.2.3}%
+\contentsline {subsection}{\numberline {11.2.4}Colômbia – Força de Contenção Oculta (FCO)}{39}{subsection.11.2.4}%
+\contentsline {subsection}{\numberline {11.2.5}Peru – Instituto Nacional de Estudos Místicos (INEM)}{39}{subsection.11.2.5}%
+\contentsline {subsection}{\numberline {11.2.6}Chile – Departamento de Contenção Paranormal (DCP)}{39}{subsection.11.2.6}%
+\contentsline {section}{\numberline {11.3}Colaborações com Organizações Internacionais na África, Ásia e Caribe}{39}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}África do Sul – Unidade de Investigação Sobrenatural (UIS)}{39}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Cuba – Oficina de Investigação e Contenção Paranormal (OICP)}{40}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Índia – Departamento de Estudos Ocultos e Paranormais (DEOP)}{40}{subsection.11.3.3}%
+\contentsline {section}{\numberline {11.4}Considerações Finais}{40}{section.11.4}%
+\contentsline {part}{III\hspace {1em}Casos Famosos}{41}{part.3}%
+\contentsline {chapter}{\numberline {12}O Caso do ET de Varginha: Um Grande Caso de Sucesso da ANVESN}{43}{chapter.12}%
+\contentsline {section}{\numberline {12.1} Antecedentes}{43}{section.12.1}%
+\contentsline {section}{\numberline {12.2} Primeiros Eventos e Relatos}{43}{section.12.2}%
+\contentsline {section}{\numberline {12.3} Mobilização e Resposta da ANVESN}{43}{section.12.3}%
+\contentsline {subsection}{\numberline {12.3.1}Cooperação com as Forças Armadas}{43}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.3.2}Equipamentos Utilizados e Procedimentos de Investigação}{43}{subsection.12.3.2}%
+\contentsline {section}{\numberline {12.4} Escalada e Ponto Crítico}{44}{section.12.4}%
+\contentsline {section}{\numberline {12.5} Resolução e Consequências Imediatas}{44}{section.12.5}%
+\contentsline {subsection}{\numberline {12.5.1}Destino das Criaturas e dos Equipamentos}{44}{subsection.12.5.1}%
+\contentsline {subsection}{\numberline {12.5.2}Ocorrências com Testemunhas}{44}{subsection.12.5.2}%
+\contentsline {section}{\numberline {12.6} Análise e Lições Aprendidas}{44}{section.12.6}%
+\contentsline {section}{\numberline {12.7} Efeitos na Realidade Atual}{45}{section.12.7}%
+\contentsline {subsection}{\numberline {12.7.1}Impacto no Sigilo e na Opinião Pública}{45}{subsection.12.7.1}%
+\contentsline {subsection}{\numberline {12.7.2}Consequências para a Cidade de Varginha}{45}{subsection.12.7.2}%
+\contentsline {subsection}{\numberline {12.7.3}Implicações para Operações Futuras}{45}{subsection.12.7.3}%

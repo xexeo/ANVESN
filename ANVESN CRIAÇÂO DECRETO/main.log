@@ -1,0 +1,202 @@
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.8.11)  3 NOV 2024 15:01
+ system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/Xexeo/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+ontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/Xexeo/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/Xexeo/AppData
+/Local/Programs/MiKTeX/tex/latex/base/report.cls
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
+(C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/Xexeo/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count192
+\c@chapter=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\c@figure=\count199
+\c@table=\count266
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen140
+)
+(C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen141
+\ttl@minus=\dimen142
+\ttl@toksa=\toks19
+\titlewidth=\dimen143
+\titlewidthlast=\dimen144
+\titlewidthfirst=\dimen145
+) (C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2023/10/27 v2.16 TOC entries
+\ttl@leftsep=\dimen146
+) (C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks20
+\labelindent=\skip53
+\enit@outerparindent=\dimen147
+\enit@toks=\toks21
+\enit@inbox=\box53
+\enit@count@id=\count267
+\enitdp@description=\count268
+) (C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+)
+(C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count270
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box54
+)
+No file main.aux.
+
+\openout1 = main.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+5.
+(C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+
+Chapter I.
+Chapter II.
+
+Overfull \hbox (13.19548pt too wide) in paragraph at lines 60--60
+|[]\TU/lmr/bx/n/12 DAS COM-PETÊN-CIAS E RE-SPON-S-ABIL-I-DADES| 
+ []
+
+Chapter III.
+
+
+[1
+
+{C:/Users/Xexeo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (1.22801pt too wide) in paragraph at lines 94--95
+[]\TU/lmr/bx/n/12 Di-re-to-ria de Aliení-ge-nas, Intra-Terrestres e Sim-i-lares
+\TU/lmr/m/n/12 : des-
+ []
+
+
+Overfull \hbox (20.01593pt too wide) in paragraph at lines 102--103
+[]\TU/lmr/bx/n/12 Di-re-to-ria de Plan-tas e An-i-mais Fan-tás-ti-cos e Ex-trao
+rdinários\TU/lmr/m/n/12 :
+ []
+
+
+
+[2]
+Chapter IV.
+
+
+[3]
+Overfull \hbox (5.592pt too wide) in paragraph at lines 152--153
+[]\TU/lmr/bx/n/12 Seg-men-tação de Acesso por Ne-ces-si-dade de Con-hec-i-ment
+o\TU/lmr/m/n/12 :
+ []
+
+
+Overfull \hbox (0.2056pt too wide) in paragraph at lines 156--157
+[]\TU/lmr/m/n/12 Pará-grafo único. Qual-quer co-lab-o-ração in-terin-sti-tu-
+cional re-al-izada pela
+ []
+
+Chapter V.
+
+
+[4]
+
+[5] (./main.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 1595 strings out of 475915
+ 100000,1977958 words of node,token memory allocated
+ 426 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 52 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 1:1,2:255,3:140,4:7,5:225,6:25,7:4431,8:2,9:150,10:5,11:477
+ 24288 multiletter control sequences out of 65536+600000
+ 17 fonts using 986807 bytes
+ 41i,5n,49p,537b,394s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm/lmroman12
+-italic.otf><C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/fonts/opentype/public/
+lm/lmroman12-bold.otf><C:/Users/Xexeo/AppData/Local/Programs/MiKTeX/fonts/openty
+pe/public/lm/lmroman12-regular.otf>
+Output written on main.pdf (5 pages, 30934 bytes).
+
+PDF statistics: 39 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
