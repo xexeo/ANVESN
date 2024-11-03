@@ -1,6 +1,6 @@
 # ANVESN RPG
 
-![Logo do ANVESN RPG](ANVESN Barra das Garças\imagens\ANVESN_LOGO.png)
+![Logo do ANVESN RPG](ANVESN Barra das Garças/imagens/ANVESN_LOGO.png)
 
 
 **ANVESN RPG** é um jogo de interpretação de papéis (RPG) baseado no universo da Agência Nacional de Vigilância de Eventos Sobrenaturais (ANVESN), inspirada em jogos como *The Laundry Files* e *Call of Cthulhu*. Neste jogo, os jogadores assumem o papel de agentes da ANVESN, uma organização secreta dedicada à investigação e contenção de fenômenos sobrenaturais, alienígenas, mortos-vivos e entidades místicas, que representam uma ameaça à segurança nacional.
