@@ -19,6 +19,8 @@
 \RequirePackage{xparse}
 \RequirePackage{expl3}
 \RequirePackage{indentfirst}
+
+
 % Configurações de página
 \geometry{a4paper, margin=1in}
 \setlength{\parindent}{1cm} % Parágrafos sem indentação
@@ -43,10 +45,12 @@
 
 % Ajuste para evitar Overfull hbox nos títulos
 \titleformat{\chapter}[hang]
-  {\headingfont\LARGE\bfseries\color{primarycolor}}
+  {\clearpage\headingfont\LARGE\bfseries\color{primarycolor}}
   {Capítulo \thechapter.}{1em}{}
   [\vspace{0.5em}]
 \titlespacing*{\chapter}{0pt}{2em}{1em}
+
+
 
 \titleformat{\section}[block]
   {\headingfont\Large\bfseries\color{secondarycolor}}
@@ -69,13 +73,16 @@
 % Estilo de cabeçalho e rodapé
 \pagestyle{fancy}
 \setlength{\headheight}{15.23404pt}
+
 \fancyhf{}
 % \fancyhead[L]{\headingfont\color{primarycolor} \leftmark}
 % \fancyhead[R]{\headingfont\color{primarycolor} ANVESN RPG}
 
+
 \fancyhead[L]{\headingfont\color{primarycolor} \truncate{0.6\textwidth}{\leftmark}}
 \fancyhead[R]{\headingfont\color{primarycolor} ANVESN RPG}
 \fancyfoot[C]{\thepage}
+
 
 % Caixas de destaque para regras e notas
 \newtcolorbox{rulesection}{
@@ -114,6 +121,7 @@
 
 % Comando para capa com duas imagens
 % Redefine \maketitle to include an image before and after the title content
+
 
 \renewcommand{\maketitle}{
   \begin{titlepage}
